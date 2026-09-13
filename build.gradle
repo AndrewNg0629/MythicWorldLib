@@ -92,7 +92,7 @@ publishing {
 
     repositories {
         maven {
-            name = "localRepo"
+            name = "GithubPages"
             url = uri(layout.buildDirectory.dir("maven-repo"))
         }
     }
