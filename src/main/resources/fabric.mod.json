@@ -4,8 +4,13 @@
   "version": "${version}",
   "name": "MythicWorldLib",
   "description": "A shared library for MythicWorld mods.",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "AndrewNg0629"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/mythicworldlib",
+    "issues": "https://github.com/AndrewNg0629/MythicWorldLib/issues"
+  },
   "license": "MIT",
   "icon": "assets/mythicworldlib/structure_block_with_book.png",
   "environment": "*",
