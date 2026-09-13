@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.aenp.mwl.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLoginNetworkHandlerMixin",
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixins": [
+  ]
+}

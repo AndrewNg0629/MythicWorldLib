@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mythicworldlib",
+  "version": "${version}",
+  "name": "MythicWorldLib",
+  "description": "A shared library for MythicWorld mods.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mythicworldlib/structure_block_with_book.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "top.aenp.mwl.client.MythicWorldLibClient"
+    ],
+    "main": [
+      "top.aenp.mwl.MythicWorldLib"
+    ]
+  },
+  "mixins": [
+    "mythicworldlib.mixins.json",
+    {
+      "config": "mythicworldlib.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
