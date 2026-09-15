@@ -3,7 +3,7 @@
   "component": {
     "group": "top.aenp.mwl",
     "module": "MythicWorldLib",
-    "version": "26.1",
+    "version": "26.1.1",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "MythicWorldLib-26.1.jar",
-          "url": "MythicWorldLib-26.1.jar",
-          "size": 35525,
-          "sha512": "2af60f6d409a7b6e73993b1cb79a4367d47c3e71e0be1d365731a827596b097b07f633fe4c604a7772a171f6c9714ff82862d00ee854601ff4ff64737c322107",
-          "sha256": "e69639cdaba6b95188930173236aa4c915deaa705fa75207a14c9510bb7accdb",
-          "sha1": "28da08795f373a40e364a5e8861de5a68a881daa",
-          "md5": "cc6385886d967a4e2d9239e12cdff3c2"
+          "name": "MythicWorldLib-26.1.1.jar",
+          "url": "MythicWorldLib-26.1.1.jar",
+          "size": 44247,
+          "sha512": "405ef8d0686f881e3a94553c4275f9e0a677ffcc0277d06e2e191e2cd6054c832dc7784329b88332ecd42f6e789475b44028da197522ca25e0c48147910015b5",
+          "sha256": "b6534603895c96fba3630925b5997fba950816eaf2f6ab57de2de81e56f68849",
+          "sha1": "793861a7f67adaa55efed16bafb2e491859f20a5",
+          "md5": "deb1dd6321af97f7545c08088bed4ca7"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "MythicWorldLib-26.1.jar",
-          "url": "MythicWorldLib-26.1.jar",
-          "size": 35525,
-          "sha512": "2af60f6d409a7b6e73993b1cb79a4367d47c3e71e0be1d365731a827596b097b07f633fe4c604a7772a171f6c9714ff82862d00ee854601ff4ff64737c322107",
-          "sha256": "e69639cdaba6b95188930173236aa4c915deaa705fa75207a14c9510bb7accdb",
-          "sha1": "28da08795f373a40e364a5e8861de5a68a881daa",
-          "md5": "cc6385886d967a4e2d9239e12cdff3c2"
+          "name": "MythicWorldLib-26.1.1.jar",
+          "url": "MythicWorldLib-26.1.1.jar",
+          "size": 44247,
+          "sha512": "405ef8d0686f881e3a94553c4275f9e0a677ffcc0277d06e2e191e2cd6054c832dc7784329b88332ecd42f6e789475b44028da197522ca25e0c48147910015b5",
+          "sha256": "b6534603895c96fba3630925b5997fba950816eaf2f6ab57de2de81e56f68849",
+          "sha1": "793861a7f67adaa55efed16bafb2e491859f20a5",
+          "md5": "deb1dd6321af97f7545c08088bed4ca7"
         }
       ]
     },
@@ -82,13 +82,13 @@
       },
       "files": [
         {
-          "name": "MythicWorldLib-26.1-sources.jar",
-          "url": "MythicWorldLib-26.1-sources.jar",
-          "size": 24432,
-          "sha512": "6135df8eea4d1b97aa1feafc2b6df654434fce40a05e835d728db5ce03f079cf6f2a62df85de2aaeb73c5a6b940b68169fea01b73d311454024906fc7efc09c2",
-          "sha256": "6982ee2c8c98be43aab67bc1056aa14e0919dd559964f52360a261928f60e68a",
-          "sha1": "9dff567ce817eb48496039b2ab0a4c48180abd5d",
-          "md5": "d7dbc242826b43b8ec35cb36ae09c0b4"
+          "name": "MythicWorldLib-26.1.1-sources.jar",
+          "url": "MythicWorldLib-26.1.1-sources.jar",
+          "size": 25716,
+          "sha512": "538a47fd7547e33854b207ec8a2ba98c6230618d4d56fdc60241928bcd1a52ea65adca1a581fc9a697b8d4670e910ccd96be8cd315a0a22547e8e912e9ae84f6",
+          "sha256": "6d3d11de7e22136aa888e3fdaccbdfdf7213aa0e23b19c0cacf9c48d0e70113a",
+          "sha1": "52acdcc38aa606624e1aaca2ebd48f980d267e39",
+          "md5": "b37b097c2b089ed9ce0b8b64ee58f87d"
         }
       ]
     }
