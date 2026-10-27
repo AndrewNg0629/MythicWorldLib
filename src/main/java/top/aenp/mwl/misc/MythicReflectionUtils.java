@@ -1,51 +1,14 @@
 package top.aenp.mwl.misc;
 
 import com.google.common.collect.ImmutableMap;
-import net.minecraft.network.PacketByteBuf;
-import net.minecraft.network.packet.c2s.login.LoginQueryResponseC2SPacket;
-import net.minecraft.network.packet.c2s.login.LoginQueryResponsePayload;
-import net.minecraft.network.packet.s2c.login.LoginQueryRequestPayload;
-import net.minecraft.network.packet.s2c.login.LoginQueryRequestS2CPacket;
-import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
 @SuppressWarnings("unused")
 public class MythicReflectionUtils {
-    private static final Method LoginQueryRequestS2CPacket$readPayload0;
-    private static final Method LoginQueryResponseC2SPacket$readPayload0;
-
-    static {
-        try {
-            LoginQueryRequestS2CPacket$readPayload0 = LoginQueryRequestS2CPacket.class.getDeclaredMethod(EnvironmentDetector.isYarn ? "readPayload" : "method_52287", Identifier.class, PacketByteBuf.class);
-            LoginQueryRequestS2CPacket$readPayload0.setAccessible(true);
-            LoginQueryResponseC2SPacket$readPayload0 = LoginQueryResponseC2SPacket.class.getDeclaredMethod(EnvironmentDetector.isYarn ? "readPayload" : "method_52290", Integer.TYPE, PacketByteBuf.class);
-            LoginQueryResponseC2SPacket$readPayload0.setAccessible(true);
-        } catch (NoSuchMethodException e) {
-            throw new RuntimeException("Unable to get method object.", e);
-        }
-    }
-
-    public static LoginQueryRequestPayload LoginQueryRequestS2CPacket$readPayload(Identifier id, PacketByteBuf buf) {
-        try {
-            return (LoginQueryRequestPayload) LoginQueryRequestS2CPacket$readPayload0.invoke(null, id, buf);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    public static LoginQueryResponsePayload LoginQueryResponseC2SPacket$readPayload(int id, PacketByteBuf buf) {
-        try {
-            return (LoginQueryResponsePayload) LoginQueryResponseC2SPacket$readPayload0.invoke(null, id, buf);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
-
     public static class ReflectedField<C, F> {
         private static final ImmutableMap<Class<?>, Class<?>> PRIMITIVE_TO_BOXED = new ImmutableMap.Builder<Class<?>, Class<?>>()
                 .put(byte.class, Byte.class)
