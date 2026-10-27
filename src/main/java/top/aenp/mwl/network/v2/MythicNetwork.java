@@ -43,7 +43,7 @@ public class MythicNetwork {
         return new LoginQueryRequestS2CPacket(QUERY_ID, DUMMY_LOGIN_S2C_ID, packetByteBuf);
     }
 
-    public static LoginQueryResponseC2SPacket createLoginS2CPacket(MythicLoginC2SPayload payload) {
+    public static LoginQueryResponseC2SPacket createLoginC2SPacket(MythicLoginC2SPayload payload) {
         PacketByteBuf packetByteBuf = new PacketByteBuf(Unpooled.buffer());
         Identifier mythicId = payload.mythicId();
         PacketCodec<PacketByteBuf, MythicLoginC2SPayload> codec = (PacketCodec<PacketByteBuf, MythicLoginC2SPayload>) MythicNetwork.INSTANCE.LOGIN_C2S_CODECS.get(mythicId);
@@ -67,6 +67,6 @@ public class MythicNetwork {
         PacketCodec<PacketByteBuf, MythicPlayC2SPayload> codec = (PacketCodec<PacketByteBuf, MythicPlayC2SPayload>) MythicNetwork.INSTANCE.PLAY_C2S_CODECS.get(mythicId);
         packetByteBuf.writeIdentifier(mythicId);
         codec.encode(packetByteBuf, payload);
-        return new CustomPayloadC2SPacket(MYTHIC_PLAY_S2C_ID, packetByteBuf);
+        return new CustomPayloadC2SPacket(MYTHIC_PLAY_C2S_ID, packetByteBuf);
     }
 }
