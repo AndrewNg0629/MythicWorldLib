@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.aenp.mwl",
+    "module": "MythicWorldLib",
+    "version": "26.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "MythicWorldLib-26.2.jar",
+          "url": "MythicWorldLib-26.2.jar",
+          "size": 44238,
+          "sha512": "24395ace699bd52c41ba97a737ea569d83fbde2bbae0b202fadea0cd82d1561dd118c2e2a98e93b6bc75958aa2afb287bbccf0b546a69f79c3947679b507b7ee",
+          "sha256": "b6fa8963e0c0d6fe8853923b79fcc64a8495d5d87dbb446bf324a1d36d66620c",
+          "sha1": "ae8ee7e0ab30001ac9422956cc6afbc418ea575c",
+          "md5": "10a20bbc7712cd4c2fdc799b562fddf4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MythicWorldLib-26.2.jar",
+          "url": "MythicWorldLib-26.2.jar",
+          "size": 44238,
+          "sha512": "24395ace699bd52c41ba97a737ea569d83fbde2bbae0b202fadea0cd82d1561dd118c2e2a98e93b6bc75958aa2afb287bbccf0b546a69f79c3947679b507b7ee",
+          "sha256": "b6fa8963e0c0d6fe8853923b79fcc64a8495d5d87dbb446bf324a1d36d66620c",
+          "sha1": "ae8ee7e0ab30001ac9422956cc6afbc418ea575c",
+          "md5": "10a20bbc7712cd4c2fdc799b562fddf4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "MythicWorldLib-26.2-sources.jar",
+          "url": "MythicWorldLib-26.2-sources.jar",
+          "size": 25705,
+          "sha512": "fbfc931f0149426675229754c2bb171566731210ffea9f01351c1dd299097395e6ecf7c832212821bc654c5e7f2d4bf699cf72fc48d083c4540eb4e2ea3bc5d9",
+          "sha256": "0add65da88d8027153429215cb5f2cceb4fb6114fec2167d8977ce379151131b",
+          "sha1": "ddf8595b2e324b36a4b6a0181967022b8b9ad57d",
+          "md5": "93e48b072bfc05d063699fbd3326e41c"
+        }
+      ]
+    }
+  ]
+}
