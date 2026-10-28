@@ -27,11 +27,11 @@
         {
           "name": "MythicWorldLib-26.1.2-1.20.1.jar",
           "url": "MythicWorldLib-26.1.2-1.20.1.jar",
-          "size": 39271,
-          "sha512": "580c195df9bcc2c8cdab81538ac4be2d6c94eeb0185106612e5aec4cd4110d9b132a2792e1e4706cdb561d987c3668892c80a829cbfef45960cac444f61e25c8",
-          "sha256": "89be2776cf9ceb769a5e7553a41a500a6a36c873794f5674d0ecefb88c40e3a8",
-          "sha1": "51381a190b7e975eb517f9f329d92fdeddf393b0",
-          "md5": "514a17eedbb97aee457fe9cf45023c6f"
+          "size": 40122,
+          "sha512": "3923feda5488d65d9ad020af5a5fbfca29ef96f2efe458f2e82081919d2aacc26577613bc767f099ea3d1fae67cdc8bb3dba7682f7597ab61e40954f50a3118d",
+          "sha256": "ebb6da15d1e219af91f49d9afa96623ef1bded60e1441b083432a9a6cb758ed6",
+          "sha1": "10d9070b512b3921f9676f02ed25ae16366d5caf",
+          "md5": "ca5ef30359f5eb46a356a5fa953f6e92"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "MythicWorldLib-26.1.2-1.20.1.jar",
           "url": "MythicWorldLib-26.1.2-1.20.1.jar",
-          "size": 39271,
-          "sha512": "580c195df9bcc2c8cdab81538ac4be2d6c94eeb0185106612e5aec4cd4110d9b132a2792e1e4706cdb561d987c3668892c80a829cbfef45960cac444f61e25c8",
-          "sha256": "89be2776cf9ceb769a5e7553a41a500a6a36c873794f5674d0ecefb88c40e3a8",
-          "sha1": "51381a190b7e975eb517f9f329d92fdeddf393b0",
-          "md5": "514a17eedbb97aee457fe9cf45023c6f"
+          "size": 40122,
+          "sha512": "3923feda5488d65d9ad020af5a5fbfca29ef96f2efe458f2e82081919d2aacc26577613bc767f099ea3d1fae67cdc8bb3dba7682f7597ab61e40954f50a3118d",
+          "sha256": "ebb6da15d1e219af91f49d9afa96623ef1bded60e1441b083432a9a6cb758ed6",
+          "sha1": "10d9070b512b3921f9676f02ed25ae16366d5caf",
+          "md5": "ca5ef30359f5eb46a356a5fa953f6e92"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "MythicWorldLib-26.1.2-1.20.1-sources.jar",
           "url": "MythicWorldLib-26.1.2-1.20.1-sources.jar",
-          "size": 23647,
-          "sha512": "6581ccc2a92f00e4db377fd93c8bb4459e94bda70782fb9cc386d85550c9e604ac8840c020e442c77effb6e5a1cb3780bf8660aab1888b839b4738f476e9471d",
-          "sha256": "2ca3a1c3b6cd584a70ded1fa4a358c22c956898d4b2649455bb6438d726f2684",
-          "sha1": "a2c5a00fe3ae3da067928bccfd0f986368bc9060",
-          "md5": "3b550867151a9dba9cedff4214d6e297"
+          "size": 23645,
+          "sha512": "fa1f7b905f5a4e2e61a06c5ce5a391d231d48cf90ba4afd8419ace7fa0b72d0a51b16c02d3210a734dff63ed6f85b12253f263b95ee78450eccd6338430f8586",
+          "sha256": "ebe3675fa5106e1aee0a81f557f763dad5b421a1613ffce97c438b77bac4f2c0",
+          "sha1": "2dc452725ec89454f69a3fd5feffc7b2446e0b39",
+          "md5": "47217df35c60ca9578bfdc55cdb31308"
         }
       ]
     }
